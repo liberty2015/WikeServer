@@ -1,0 +1,43 @@
+<script src="/wike/Public/js/wike.js"></script>
+<link href="/wike/Public/css/wike.css" rel="stylesheet">
+<div class="templatemo-content-container">
+    <div class="templatemo-flex-row flex-content-row">
+        <div class="templatemo-content-widget white-bg col-2">
+            <i class="fa fa-video-camera"></i>
+            <h2 class="templatemo-inline-block">Course Direction</h2>
+            <hr>
+            <div class="table-responsive">
+                <form class="form-group-sm" method="post" action="{:U('CourseType/createType')}" enctype="multipart/form-data">
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                        <tr>
+                            <td>类型名称：</td>
+                            <td><input type="text" name="type[name]"><input type="hidden" value="{$did}" name="type[did]"></td>
+                        </tr>
+                        <tr>
+                            <td>logo</td>
+                            <!--<td><input type="file" name="image" value="选择图片"><p style="color: red">(仅限.jpg、.png、.jpeg格式)</p></td>-->
+                            <td>
+                                <div class="input-group">
+                                    <div tabindex="500" class="form-control" id="input0a"></div>
+                                    <div class="input-group-btn">
+                                        <div tabindex="500" class="btn btn-primary btn-file">
+                                            <i class="glyphicon glyphicon-folder-open"></i>
+                                            &nbsp;Bowse ...
+                                            <input type="file" name="image" value="选择图片" id="file-a">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="color: red">(仅限.jpg、.png、.jpeg格式)</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <button type="submit" class="templatemo-white-button" style="float: right">提交</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<script src="/Public/wike.js"></script>-->

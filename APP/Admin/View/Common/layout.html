@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{:C('SITE_TITLE')}后台管理</title>
+    <meta name="description" content="">
+    <meta name="author" content="templatemo">
+    <link href="/wike/img/wike_favicon.ico" type="image/x-icon" rel="icon">
+    <link href="/wike/img/wike_favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link href="/wike/Public/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/wike/Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/wike/Public/css/templatemo-style.css" rel="stylesheet">
+    <link href="/wike/Public/css/page.css" rel="stylesheet">
+    <script src="/wike/Public/js/jquery.js"></script>
+    <script src="/wike/Public/js/bootstrap.min.js"></script>
+    <script src="/wike/Public/js/jquery-migrate-1.2.1.min.js"></script> <!--  jQuery Migrate Plugin -->
+    <script type="text/javascript" src="/wike/Public/js/templatemo-script.js"></script>      <!-- Templatemo Script -->
+</head>
+<body>
+<!-- Left column -->
+<div class="templatemo-flex-row">
+    <div class="templatemo-sidebar">
+        <header class="templatemo-site-header">
+            <div class="square"></div>
+            <h1>{:C('SITE_TITLE')}</h1>
+        </header>
+        <div class="profile-photo-container">
+            <img src="http://wikewechat-wike.stor.sinaapp.com/Images%2FWikeAdmin.jpg" alt="Profile Photo" class="img-responsive">
+            <div class="profile-photo-overlay"></div>
+        </div>
+        <div class="mobile-menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <include file="Common/sidebar"/>
+    </div>
+    <!-- Main content -->
+    <div class="templatemo-content col-1 light-gray-bg">
+        <include file="Common/top_nav"/>
+        {__CONTENT__}
+        <include file="Common/footer"/>
+    </div>
+</div>
+
+
+
+</body>
+</html>

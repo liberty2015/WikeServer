@@ -1,0 +1,261 @@
+[ 2017-02-15T15:41:09+08:00 ] ::1 /wike/index.php/Home/User/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 61 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 62 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 64 行.
+NOTIC: [8] Undefined index: phone D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 65 行.
+NOTIC: [8] Undefined index: email D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 66 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wike_database.stu' doesn't exist
+
+[ 2017-02-15T15:42:28+08:00 ] ::1 /wike/index.php/Home/User/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 61 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 62 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 64 行.
+NOTIC: [8] Undefined index: phone D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 65 行.
+NOTIC: [8] Undefined index: email D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `wike_stu` [ RunTime:0.0028s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
+[ 2017-02-15T16:29:29+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wike_stu` [ RunTime:0.0021s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null
+
+[ 2017-02-15T16:30:08+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&phone=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wike_stu` [ RunTime:0.0021s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null
+
+[ 2017-02-15T16:32:32+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wike_stu` [ RunTime:0.0019s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null
+
+[ 2017-02-15T16:34:06+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wike_stu` [ RunTime:0.0008s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null
+
+[ 2017-02-15T16:35:10+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?loginName=1343254535&loginPassword=1234&gender=0&nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wike_stu` [ RunTime:0.0024s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null
+
+[ 2017-02-15T16:35:17+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wike_stu` [ RunTime:0.0018s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null
+
+[ 2017-02-15T16:36:23+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003336s ]
+
+[ 2017-02-15T16:37:54+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2017-02-15T16:38:43+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-02-15T16:41:31+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-02-15T16:42:03+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-02-15T16:42:51+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone??nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003350s ]
+
+[ 2017-02-15T16:43:03+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-02-15T16:43:52+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2017-02-15T16:45:05+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 72 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-02-15T17:56:29+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+ERR: 日志
+[ 2017-02-15T17:56:29+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 78 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+

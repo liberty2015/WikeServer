@@ -1,0 +1,143 @@
+[ 2016-06-12T00:03:35+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/createVideo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 63 行.
+SQL: select node.id,node.name from wike_role as role,wike_role_user as user,wike_access as access ,wike_node as node where user.user_id='3' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0101s ]
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `wike_course` [ RunTime:0.0093s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/wikewechat/APP/Admin/Model/CourseModel.class.php 第 149 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/wikewechat/APP/Admin/Model/CourseModel.class.php 第 149 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/wikewechat/APP/Admin/Model/CourseModel.class.php 第 149 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/wikewechat/APP/Admin/Model/CourseModel.class.php 第 149 行.
+NOTIC: [8] Undefined index: $cvanalysis /var/www/html/wikewechat/APP/Admin/Model/CourseModel.class.php 第 160 行.
+SQL: SHOW COLUMNS FROM `wike_cvideo` [ RunTime:0.0096s ]
+SQL: INSERT INTO `wike_cvideo` (`vname`,`vdev`,`chid`,`cid`) VALUES ('第二十讲-【课堂测验】driver-驱动程序编译进内核','http://7xln7a.media1.z0.glb.clouddn.com/lrcOMQqhZTZPCFcCkMOKkgJM8653','0','0') [ RunTime:0.0383s ]
+SQL: SHOW COLUMNS FROM `wike_ctest` [ RunTime:0.0093s ]
+SQL: INSERT INTO `wike_ctest` (`cvideo_id`,`cvcontent`,`cvanswer`,`cvtimepoint`,`cvoptions`,`cvtype`,`cvanalysis`) VALUES ('17','Kconfig的作用是什么',NULL,'2','在内核配置时候，作为配置选项///在进行内核配置的时候，经过配置后生成的内核编译参考文///包含一些规则告诉make编译哪些文件以及怎样编译这些文件///保存内核的配置结果','1',NULL) [ RunTime:0.0543s ]
+SQL: INSERT INTO `wike_ctest` (`cvideo_id`,`cvcontent`,`cvanswer`,`cvtimepoint`,`cvoptions`,`cvtype`,`cvanalysis`) VALUES ('17','以下关于Makefile文件的目标定义命令不正确的是',NULL,'10','obj-y:=foo.o///obj-$(CONFIG_ISDN)+=isdn.o///obj-$(CONFIG_EXT2_FS)+=ext2.o  ext2-y:=balloc.o bitmap.o///make -C $(KERN_DIR) M=`pwd` modules','1',NULL) [ RunTime:0.0107s ]
+SQL: INSERT INTO `wike_ctest` (`cvideo_id`,`cvcontent`,`cvanswer`,`cvtimepoint`,`cvoptions`,`cvtype`,`cvanalysis`) VALUES ('17','以下配置内核的四种方法，哪种是字符界面配置',NULL,'16','makeconfig///makemenuconfig///makexconfig///makegconfig','1',NULL) [ RunTime:0.0088s ]
+SQL: INSERT INTO `wike_ctest` (`cvideo_id`,`cvcontent`,`cvanswer`,`cvtimepoint`,`cvoptions`,`cvtype`,`cvanalysis`) VALUES ('17','Kconfig文件的配置选项的属性不包括',NULL,'30','类型，数据,输入提示///依赖关系（及反向依赖关系）///帮助信息和默认值///Makefile的通用规则 ','1',NULL) [ RunTime:0.0090s ]
+NOTIC: [8] Undefined offset: 4 /var/www/html/wikewechat/APP/Admin/Model/CourseModel.class.php 第 171 行.
+SQL: INSERT INTO `wike_ctest` (`cvideo_id`,`cvcontent`,`cvanswer`,`cvtimepoint`,`cvoptions`,`cvtype`,`cvanalysis`) VALUES ('17','驱动程序编译进内核的两种方法：',NULL,'35','静态编译：驱动程序->内核（生成新的zImage->生成uImage->烧到板子上）；///动态编译：insmod *.ko（内核启动之后）。','3',NULL) [ RunTime:0.0086s ]
+NOTIC: [8] Undefined offset: 5 /var/www/html/wikewechat/APP/Admin/Model/CourseModel.class.php 第 171 行.
+SQL: INSERT INTO `wike_ctest` (`cvideo_id`,`cvcontent`,`cvanswer`,`cvtimepoint`,`cvoptions`,`cvtype`,`cvanalysis`) VALUES ('17','怎么在菜单配置栏添加新的菜单栏目USBTCM？',NULL,'40','先把驱动代码usbtmc(文件夹)赋值到/usr/srcnux-headers-2.6.32-31-generic/driversar下；///修改char目录下的Kconfig和Makefile///在自己写得驱动程序文件夹中添加Kconfig和Makefile///正确配置好后，我们在源码下执行sudomake menuconfig后，在出现的LinuxKernel Configuration图形界面中选择DeviceDrivers下的characterdevcie中，将会看到新加的USBTCM菜单。','3',NULL) [ RunTime:0.0177s ]
+
+[ 2016-06-12T00:08:30+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/getTestData.html?ctestid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 63 行.
+SQL: select node.id,node.name from wike_role as role,wike_role_user as user,wike_access as access ,wike_node as node where user.user_id='3' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0091s ]
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 90 行.
+SQL: SELECT COUNT(stu_id) count,flag FROM `wike_stu_ctest` WHERE ctest_id=7 group by (flag) [ RunTime:0.0263s ]
+SQL: SELECT COUNT(stu_id) count,account FROM `wike_stu_ctest` WHERE ctest_id=7 and flag=0 group by (account) [ RunTime:0.0094s ]
+
+[ 2016-06-12T11:04:17+08:00 ] 221.4.215.212 /wikewechat/Admin/Course/getTestData.html?ctestid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 63 行.
+SQL: select node.id,node.name from wike_role as role,wike_role_user as user,wike_access as access ,wike_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0104s ]
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 90 行.
+SQL: SELECT COUNT(stu_id) count,flag FROM `wike_stu_ctest` WHERE ctest_id=2 group by (flag) [ RunTime:0.0278s ]
+SQL: SELECT COUNT(stu_id) count,account FROM `wike_stu_ctest` WHERE ctest_id=2 and flag=0 group by (account) [ RunTime:0.0099s ]
+
+[ 2016-06-12T11:07:30+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/getTestData.html?ctestid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 63 行.
+SQL: select node.id,node.name from wike_role as role,wike_role_user as user,wike_access as access ,wike_node as node where user.user_id='3' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0097s ]
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 90 行.
+SQL: SELECT COUNT(stu_id) count,flag FROM `wike_stu_ctest` WHERE ctest_id=7 group by (flag) [ RunTime:0.0128s ]
+SQL: SELECT COUNT(stu_id) count,account FROM `wike_stu_ctest` WHERE ctest_id=7 and flag=0 group by (account) [ RunTime:0.0086s ]
+
+[ 2016-06-12T11:07:39+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/getTestData.html?ctestid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 63 行.
+SQL: select node.id,node.name from wike_role as role,wike_role_user as user,wike_access as access ,wike_node as node where user.user_id='3' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0106s ]
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 90 行.
+SQL: SELECT COUNT(stu_id) count,flag FROM `wike_stu_ctest` WHERE ctest_id=6 group by (flag) [ RunTime:0.0107s ]
+SQL: SELECT COUNT(stu_id) count,account FROM `wike_stu_ctest` WHERE ctest_id=6 and flag=0 group by (account) [ RunTime:0.0105s ]
+
+[ 2016-06-12T16:34:10+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/getTestData.html?ctestid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 63 行.
+SQL: select node.id,node.name from wike_role as role,wike_role_user as user,wike_access as access ,wike_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0097s ]
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 90 行.
+SQL: SELECT COUNT(stu_id) count,flag FROM `wike_stu_ctest` WHERE ctest_id=6 group by (flag) [ RunTime:0.0090s ]
+SQL: SELECT COUNT(stu_id) count,account FROM `wike_stu_ctest` WHERE ctest_id=6 and flag=0 group by (account) [ RunTime:0.0089s ]
+
+[ 2016-06-12T16:34:48+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/getTestData.html?ctestid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 63 行.
+SQL: select node.id,node.name from wike_role as role,wike_role_user as user,wike_access as access ,wike_node as node where user.user_id='3' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 90 行.
+SQL: SELECT COUNT(stu_id) count,flag FROM `wike_stu_ctest` WHERE ctest_id=1 group by (flag) [ RunTime:0.0084s ]
+SQL: SELECT COUNT(stu_id) count,account FROM `wike_stu_ctest` WHERE ctest_id=1 and flag=0 group by (account) [ RunTime:0.0083s ]
+
+[ 2016-06-12T16:34:53+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/getTestData.html?ctestid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 63 行.
+SQL: select node.id,node.name from wike_role as role,wike_role_user as user,wike_access as access ,wike_node as node where user.user_id='3' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 78 行.
+NOTIC: [8] Undefined index: ADMIN /var/www/html/wikewechat/APP/Admin/Controller/CommonController.class.php 第 90 行.
+SQL: SELECT COUNT(stu_id) count,flag FROM `wike_stu_ctest` WHERE ctest_id=3 group by (flag) [ RunTime:0.0099s ]
+SQL: SELECT COUNT(stu_id) count,account FROM `wike_stu_ctest` WHERE ctest_id=3 and flag=0 group by (account) [ RunTime:0.0097s ]
+

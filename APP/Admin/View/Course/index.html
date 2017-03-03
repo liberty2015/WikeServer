@@ -1,0 +1,30 @@
+<link href="/wike/Public/css//wike.css" rel="stylesheet">
+    <div class="wike-content-container">
+        <h2>我创建的课程</h2>
+        <hr>
+        <div class="wike-class-container">
+            <volist  name="course" id="data">
+                <div class="wike-class-item">
+                    <h4>{$data[name]}</h4>
+                    <div class="wike-item-footbox">
+                        <span class="wike-item-control">
+                            <a href="{:U('Course/checkCourse',array('id'=>$data[id]))}">
+                                <i class="glyphicon glyphicon-search"></i>查看
+                            </a>
+                        </span>
+                        <span class="wike-item-control">
+                            <a href="{:U('Course/editCourse',array('id'=>$data[id]))}">
+                                <i class="fa fa-pencil"></i>编辑
+                            </a>
+                        </span>
+                    <span class="wike-item-control">
+                    <a href="{:U('Course/addChapter',array('id'=>$data[id]))}">
+                        <i class="fa fa-plus"></i>添加章节
+                    </a>
+                    </span>
+                    </div>
+                    </div>
+            </volist>
+
+        </div>
+    </div>

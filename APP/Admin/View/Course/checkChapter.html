@@ -1,0 +1,199 @@
+﻿<script src="/wike/Public/js/wike.js"></script>
+<link href="/wike/Public/css/wike.css" rel="stylesheet">
+<script src="/wike/Public/js/jquery.js"></script>
+<script src="/wike/Public/js/echarts.min.js"></script>
+<div class="wike-content-container">
+        <h3>本章节学习情况</h3>
+        <hr>
+        <h4>本章节视频目录</h4>
+        <span class="wike-item-control">
+        <a href="{:U('Course/addCVideo',array('cid'=>$videoData[0]['cid'],'chid'=>$videoData[0]['chid']))}">
+            <i class="fa fa-plus"></i>添加视频
+        </a>
+        </span>
+        <table class="course_table">
+            <tr>
+                <td>视频名称</td>
+                <td>视频地址</td>
+            </tr>
+            <volist name="videoData" id="data">
+            <tr>
+                <td>{$data[vname]}</td>
+                <td>{$data[vdev]}</td>
+            </tr>
+            </volist>
+        </table>
+        <h4>学生学习情况</h4>
+        <div id="main1" style="width: 600px;height: 400px"></div>
+        <script>
+            var myChart=echarts.init(document.getElementById('main1'));
+            var option={
+                title:{
+                    text:'各节课分布情况'
+                },
+                tooltip:{},
+                legend:{data:['人数']},
+                xAxis:{
+                    data:[
+                    <?php
+                        foreach($videoData as $key => $value) {
+                            echo "\"".$value[vname]."\",";
+                        }
+                    ?>
+                    ]
+                },
+                yAxis:{},
+                series:[{
+                    name:'人数',
+                    type:'bar',
+                    data:[
+                    <?php
+                        $length=count($count);
+                        for($i=0;$i<$length;$i++){
+                            echo "\"".$count[$i]['num']."\",";
+                        }
+                    ?>]
+                }]
+            };
+            myChart.setOption(option);
+        </script>
+        <h4>课程试题情况</h4>
+        <?php
+        	//dump($count1);
+
+			for($i=0;$i<count($videoData);$i++){
+				echo "<h5>".$videoData[$i]['vname']."</h5>";
+				
+				$len=count($count1[$i]);
+				if($len>0){
+					echo "<select name="."\"ctestid"."\" id="."\"ctestid".$i."\" onchange='selectChange(".$i.")'>";
+					echo "<option></option>";
+						for($j=0;$j<$len;$j++){
+							echo "<option value=".$count1[$i][$j]['id'].">".$count1[$i][$j]['cvcontent']."</option>";
+						}
+					echo "</select>";
+					echo "<font style='color: #5ED66E;'><--选择题目</font>";
+					
+				}else{
+					echo "<p>无</p>";
+				}				
+				echo "<hr>";
+			}
+			
+        ?>
+        <script type="text/javascript">
+        	function selectChange(id){
+        		var $this=$(this);
+        		var $select=$("#ctestid"+id);
+        		var select=$select.val();
+        		// if($('#chart'+select)){
+        		// 	$('#chart'+select).remove();
+        		// }
+        		$select.next("div").remove();
+        		$select.next("div").remove();
+        		if(select!=""){
+        		$.ajax({
+        			type:"GET",
+        			url:"{:U('Course/getTestData')}",
+        			data:"ctestid="+select,
+        			success:function(data){
+        				
+        				$select.after("<div id='chart_"+select+"' style='width:600px;height:400px;'></div>");
+        				var myChart1=echarts.init(document.getElementById('chart_'+select));
+        				var chartdata1=data['data1'];
+        				var chartdata2=data['data2'];
+        				if(chartdata1[0]!=undefined){
+        					var tmp=chartdata1[0];
+        				var tmp2=chartdata1[1];
+        				if (tmp.flag=='0') {
+        					data1=tmp;
+        					if(tmp2==undefined){
+        						data2={count:'0',flag:'1'};
+        					}else{
+        						data2=tmp2;
+        					}
+        				}else{
+        					data2=tmp;
+        					if (tmp2==undefined) {
+        						data1={count:'0',flag:'0'};
+        					}else{
+        						data1=tmp2;
+        					}
+        				}
+        			}else{
+        				data1={count:'0',flag:'0'};
+        				data2={count:'0',flag:'1'};
+        			}
+        				
+            			var option={
+                		title:{
+                    		text:'该试题回答情况'
+                		},
+                		tooltip:{},
+                		legend:{data:['人数']},
+                		xAxis:{
+                    		data:[
+                    			'答对','没有答对'
+                    		]
+                		},
+                		yAxis:{},
+                		series:[{
+                    		name:'人数',
+                    		type:'bar',
+                    	data:[
+                    		data1.count,data2.count
+                    		]
+                		}]
+            			};
+            		myChart1.setOption(option);
+            		$('#chart_'+select).after("<div id='chart1_"+select+"' style='width:600px;height:400px;'></div>");
+            			var myChart2=echarts.init(document.getElementById('chart1_'+select));
+            			if(chartdata2[0]!=undefined){
+        					var tmp=chartdata2[0];
+        				var tmp2=chartdata2[1];
+        				if (tmp.account=='1') {
+        					data1=tmp;
+        					if(tmp2==undefined){
+        						data2={count:'0',account:'1'};
+        					}else{
+        						data2=tmp2;
+        					}
+        				}else{
+        					data2=tmp;
+        					if (tmp2==undefined) {
+        						data1={count:'0',account:'2'};
+        					}else{
+        						data1=tmp2;
+        					}
+        				}
+        			}else{
+        				data1={count:'0',account:'1'};
+        				data2={count:'0',account:'2'};
+        			}
+            			var option1={
+                		title:{
+                    		text:'该试题答对部分情况'
+                		},
+                		tooltip:{},
+                		legend:{data:['人数']},
+                		xAxis:{
+                    		data:[
+                    			'两次才答对','一次就答对'
+                    		]
+                		},
+                		yAxis:{},
+                		series:[{
+                    		name:'人数',
+                    		type:'bar',
+                    	data:[
+                    		data1.count,data2.count
+                    		]
+                		}]
+            			};
+            		myChart2.setOption(option1);
+        			}
+        	});
+        	}
+        	}
+        </script>
+</div>

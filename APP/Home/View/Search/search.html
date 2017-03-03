@@ -1,0 +1,33 @@
+<div class="content-inner">
+    <div style="padding-top: 2px;margin-left: 5px"><h5>为您搜索到{$count}个结果</h5>
+        <hr>
+    </div>
+    <div class="course-list">
+        <ul>
+            <volist name="course" id="data">
+                <li class="course-list-item clearfix">
+                    <div class="item-avator">
+                        <a href="{:U('Course/chapter',array('id'=>$data[id]))}">
+                            <img src="http://wikewechat-wike.stor.sinaapp.com/{$data[pdev]}" width="150" alt>
+                        </a>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-header">
+                            <a href="{:U('Course/chapter',array('id'=>$data[id]))}">{$data[cname]}</a>
+                        </h3>
+                        <div class="item-footer clearfix">
+                                <span class="item-footer-num">
+                                    <i class="fa fa-user"></i>
+                                    学习人数:{$data[unum]}
+                                </span><br>
+                            <div style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #99a1a6;">
+                                <p>简介：{$data[describtion]}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+            </volist>
+        </ul>
+    </div>
+</div>

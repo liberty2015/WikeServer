@@ -1,0 +1,494 @@
+body{
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+.btn-file {
+    position: relative;
+    /*overflow: hidden;*/
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    opacity: 0;
+    /*background: none repeat scroll 0 0 transparent;*/
+    /*cursor: inherit;*/
+    display: block;
+}
+.checkboxThree input[type="checkbox"]{
+    visibility: hidden;
+}
+.checkboxThree{
+    width: 50px;
+    height:25px;
+    border-radius: 55px;
+    background: #1f2124;
+    position: relative;
+    margin: 0px 60px;
+    float: right;
+    /*transition: all 0.5s ease;*/
+}
+.checkboxThree:before{
+    content: "On";
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    height: 2px;
+    font-size: 10px;
+    color: #00B33B;
+}
+.checkboxThree:after{
+    content: "Off";
+    position: absolute;
+    top: 5px;
+    left: 28px;
+    height: 2px;
+    font-size: 10px;
+    color: #999999;
+}
+.checkboxThree label{
+    display: block;
+    width:24px;
+    height: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    left: 0px;
+    background:#999999;
+    /*transition: all 0.5s ease;*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.checkboxThree input[type="checkbox"]:checked+label{
+    left:26px;
+    background:#00B33B;
+}
+.timepickerBox{
+    padding: 8px 5px;
+    width: 120px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    outline: none;
+    text-align: center;
+    color: #666;
+    box-shadow: 2px 2px 5px 0px rgba(50,50,50,0.35);
+}
+.timepickerBox:focus{
+    border-color: #ccc;
+    color: #333;
+}
+.ti_tx, .mi_tx, .mer_tx,.sec_tx{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+.time, .mins, .meridian,.second{
+    width: 60px;
+    float: left;
+    margin: 0px 5px;
+    font-size: 20px;
+    color: #2d2e2e;
+    font-family: 'arial';
+    font-weight: 700;
+}
+.prev, .next{
+    cursor: pointer;
+    padding: 18px;
+    width: 28%;
+    border: 1px solid #ccc;
+    margin: auto;
+    background: url(../arrow.png) no-repeat;
+    border-radius: 5px;
+}
+.prev:hover, .next:hover{
+    background-color:#ccc;
+}
+.next{
+    background-position: 50% 150%;
+}
+.prev{
+    background-position: 50% -50%;
+}
+.time_pick{
+    position:relative;
+}
+.timepicker_wrap{
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2;display:none;
+    width:240px;
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.35);
+    background:#f6f6f6;
+    border:1px solid #ccc;
+    float:left;
+    position:absolute;
+    top:27px;
+    left:0px;
+}
+.arrow_top{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    background: url(../top_arr.png) no-repeat;
+    width: 18px;
+    height: 10px;
+    z-index: 3;
+}
+
+.questionContainer{
+    /*opacity: 0;*/
+    /*visibility: hidden;*/
+    /*display: none;*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#optionsplus,#optionsminus{
+    /*text-align: center;*/
+    float: right;
+    cursor: pointer;
+}
+#optionsplus:hover,#optionsminus:hover{
+    color: #2ea7e0;
+}
+.tips{
+    color: red;
+    /*display: none;*/
+}
+.trash{
+    float: right;
+}
+.trash:hover{
+    color: #2ea7e0;
+    cursor: pointer;
+}
+.h4{
+    background-color:#ebebeb;
+    /*margin-bottom: 10px;*/
+    height: 40px;
+    line-height: 40px;
+    border-style: none none solid none;
+    border-width: thin;
+    border-bottom-color: #cecece;
+    padding:0 0 0 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.p1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+.h5{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: medium;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.p2{
+    vertical-align: middle;
+    margin-left: 2em;
+    overflow: hidden;
+    padding:0 0 0.5em 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    display: inline-block;
+    /*text-align: center;*/
+}
+.act {
+    color: #030303;
+}
+.act:hover{
+    color: #030303;
+}
+#pvideo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: none;
+}
+.modelDialog{
+    width: 100%;
+    height:110%;
+    position: absolute;
+    font-family: Arial,Helvetica,sans-serif;
+    top: -10%;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+}
+.modelDialog .submitBtn{
+    /*-webkit-box-shadow: inset 1px 1px 2px #000;*/
+    /*-moz-box-shadow: inset 1px 1px 2px #000;*/
+    /*box-shadow: inset 1px 1px 2px #000;*/
+    border-radius: 3px;
+    width: 45px;
+    height: 25px;
+    background: #419dd8;
+    border:1px solid #2c7eb3;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+.modelDialog .submitBtn:hover{
+    background: #2e6da4;
+    border-color: #2c7eb3;
+}
+
+.modelDialog>div{
+    width: 90%;
+    /*height: 300px;*/
+    max-width: 90%;
+    max-height: 90%;
+    position: fixed;
+    border-left: 6px solid #00a0e9;
+    /*margin: 5px 20px ;*/
+    border-radius: 2px;
+    top:10%;
+    left: 5%;
+    background: #FFFFFF;
+    -webkit-box-shadow:2px 2px 3px #000;
+    -moz-box-shadow:2px 2px 3px #000;
+    box-shadow:2px 2px 3px #000;
+}
+.modelDialog>div>img{
+    top:10%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width:40px;
+}
+.modelDialog>div>h3{
+    /*display: inline;*/
+    max-width: 70%;
+    left: 50px;
+    /*width: 80%;*/
+    /*right: 10%;*/
+    position: relative;
+    /*top:7%;*/
+    margin: 0px 10px 0px ;
+    /*word-break: break-all;*/
+
+}
+.modelDialog form{
+    width: 70%;
+    position: relative;
+    /*top:35%;*/
+    left:50px;
+    right: 10px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modelDialog form div{
+    word-break: break-all;
+}
+.modelDialog>div>.question{
+    position: relative;
+    /*left: 50px;*/
+    display: inline;
+    top:0px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.modelDialog>div>hr{
+    display: block;
+    margin-left: 90px;
+    margin-right: 10px;
+    border-color: #BBE2F1;
+}
+
+.modelDialog input[type=radio]{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     width: 13px;
+     height: 13px;
+     border:1px solid #dcdcdc;
+    position: relative;
+    cursor: pointer;
+ }
+.modelDialog input[type=radio]{
+   border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.modelDialog input[type=radio]:active{
+    border-color: #c6c6c6;
+    background: #ebebeb;
+}
+.modelDialog input[type=radio]:checked:after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 3px;
+    left:3px;
+    width: 7px;
+    height: 7px;
+    background: #28b2f7;
+    border-radius: 50%;
+}
+.wike-content-container{
+    border-radius: 3px;
+    border: 1px solid #EAE8E8;
+    background: #FFFFFF;
+    margin: 10px 10px 5px 5px;
+    padding:20px 20px 20px 30px;
+    position: relative;
+    height: 100%;
+}
+*{
+    font-family: "微软雅黑",
+    "Open Sans",Arial,
+    "Hiragino Sans GB",
+    "Microsoft YaHei",sans-serif;
+}
+.wike-class-container{
+    width: 100%;
+    height: 100%;
+}
+.wike-class-item{
+    position: relative;
+    border-top:5px solid #C5D0E8 !important;
+    display: inline-block;
+    margin:5px 5px 5px 5px;
+    /*float: left;*/
+    max-width:350px ;
+    min-width: 220px;
+    min-height: 132px;
+    background: #fff;
+    border: 1px solid #DCE2E6;
+    border-radius: 2px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.wike-class-item:hover{
+    border-top:5px solid #e8a628 !important;
+}
+.wike-class-item h4{
+    margin: 10px 10px;
+}
+.wike-item-control{
+    width: 40px;
+    color: #3cb371;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding:3px 5px 3px 5px;
+    cursor: pointer;
+    margin: 0px 3px 0px 3px;
+}
+.wike-item-control p{
+    display: inline;
+}
+.wike-item-control:hover{
+    background: #3cb371;
+    color: #fff;
+}
+.wike-item-footbox{
+    position: absolute;
+    bottom:5%;
+}
+.wike-item-control a{
+    text-decoration: none;
+    color: #3cb371;
+}
+.wike-item-control a:hover{
+    color: #fff;
+}
+/*.modelDialog input[type=checkbox]:hover{*/
+    /*border-color: #c6c6c6;*/
+    /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);*/
+    /*-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);*/
+    /*box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);*/
+/*}*/
+/*.modelDialog input[type=checkbox]:checked:after{*/
+    /*content:"\f00c" ;*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*top: -6px;*/
+    /*left: -5px;*/
+/*}*/
+/*.modelDialog input[type=checkbox]:focus{*/
+    /*outline: none;*/
+    /*border-color: #4d90fe;*/
+/*}*/
+.course_table td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.course_table img{
+    width:220px;
+    height: 130px;
+}
+#img{
+    position: absolute;
+    top: 90px;
+    right: 50px;
+}
+#imgCover{
+    width:220px;
+    height: 130px;
+}
+.chapter-complete{
+    /*background-color: #11FABC;*/
+background: url('/wikewechat/Public/img/learnicon.png') no-repeat 0 -348px;
+width: 20px;
+height: 20px;
+/*border-radius: 50%;*/
+display: inline-block;
+float: right;
+vertical-align: middle;
+margin: 1em;
+}
+.chapter-uncomplete{
+background: url('/wikewechat/Public/img/learnicon.png') no-repeat 0 -365px;
+width: 20px;
+height: 20px;
+/*border-radius: 50%;*/
+display: inline-block;
+float: right;
+vertical-align: middle;
+margin: 1em;
+}
+.chapter-no{
+background: url('/wikewechat/Public/img/learnicon.png') no-repeat 0 -328px;
+width: 20px;
+height: 20px;
+/*border-radius: 50%;*/
+display: inline-block;
+float: right;
+vertical-align: middle;
+margin: 1em;
+}

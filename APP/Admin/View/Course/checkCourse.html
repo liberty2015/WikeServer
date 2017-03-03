@@ -1,0 +1,103 @@
+<script src="/wike/Public/js/wike.js"></script>
+<link href="/wike/Public/css/wike.css" rel="stylesheet">
+<script src="/wike/Public/js/jquery.js"></script>
+<div class="wike-content-container">
+    <h3>课程信息</h3>
+    <hr>
+    <table class="course_table">
+        <tr>
+            <td>课程名称：</td>
+            <td>
+                <?php
+                    echo $course['class']['cname'];
+                ?>
+            </td>
+        </tr>
+        <tr>
+            <td>方向：</td>
+            <td>
+                <?php
+                    echo $course['class']['direction'];
+                ?>
+            </td>
+        </tr>
+        <tr>
+        <td>类型：</td>
+        <td>
+            <?php
+                    echo $course['class']['type'];
+             ?>
+            </td>
+        </tr>
+        <tr>
+        <td>难度：</td>
+        <td>
+        <?php
+        $level=$course['class']['clevel'];
+        switch($level){
+        case 0:echo "初级";break;
+        case 1:echo "中级";break;
+        case 2:echo "高级";break;
+        }
+        ?>
+        </td>
+        </tr>
+        <tr>
+        <td>描述：</td>
+        <td>
+            <?php
+                    echo $course['class']['description'];
+             ?>
+        </td>
+        </tr>
+        <!-- <tr>
+        <td>课程封面：</td>
+        <td>
+        <div id="img">
+        <img id="imgCover" src="http://wike-wike.stor.sinaapp.com/<?php
+                    echo $course['class']['pdev'];
+             ?>" name="preView">
+        </div>
+        </td>
+        </tr> -->
+        <tr>
+        <td>章节：</td>
+        <td>
+            <?php
+                $len=count($course['chapter']);
+                for($i=0;$i<$len;$i++){
+                    $chapter=$course['chapter'][$i];
+                     echo "<a href='/wike/Admin/Course/checkChapter/cid/".$chapter['cid']."/chid/".$chapter['id']."'>".$chapter['chname']."</a>";
+                    echo "<br/>";
+                    }
+            ?>
+        </td>
+        </tr>
+        <tr>
+            <td>试题：</td>
+            <td><button>添加</button></td>
+        </tr>
+    </table>
+        <div id="img">
+        <p>课程封面：</p>
+        <img id="imgCover" src="http://wikewechat-wike.stor.sinaapp.com/<?php
+                    echo $course['class']['pdev'];
+             ?>" name="preView">
+        </div>
+        <h3>该课程学习情况</h3>
+        <hr>
+        <table class="course_table">
+            <tr>
+                <td>学习人数：</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+</div>

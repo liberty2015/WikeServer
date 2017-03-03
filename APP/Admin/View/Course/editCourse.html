@@ -1,0 +1,177 @@
+<script src="/wike/Public/js/wike.js"></script>
+<link href="/wike/Public/css/wike.css" rel="stylesheet">
+<script src="/wike/Public/js/jquery.js"></script>
+<script src="/wike/Public/js/validate.js"></script>
+<script>
+    function ImgPreView(){
+        var file=document.getElementById("file-b");
+        var img=document.getElementById("img");
+        var fileList=file.files;
+        var length=fileList.length;
+        if (length>0){
+            img.innerHTML="";
+        }
+        for (var i=0;i<fileList.length;i++){
+            img.innerHTML+="<img id='imgCover"+i+"' name='preView'/>";
+            var imgPreview=document.getElementById("imgCover"+i);
+            if (file.files&&file.files[i]){
+                imgPreview.style.width="220px";
+                imgPreview.style.height="130px";
+                imgPreview.src=window.URL.createObjectURL(file.files[i]);
+            }else{
+                file.select();
+                var imgSrc=document.selection.createRange().text;
+                alert(imgSrc);
+                imgPreview.style.width="220px";
+                imgPreview.style.height="130px";
+                try {
+                    imgPreview.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)"
+                    imgPreview.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src=imgSrc;
+                }catch (e){
+                    alert("您上传的图片格式不正确，请重新选择！");
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+</script>
+<div class="wike-content-container">
+    <h2>编辑课程</h2>
+    <hr>
+    <div class="form-container">
+        <form id="class-form" enctype="multipart/form-data" method="post" action="{:U('Course/updateCourse')}">
+            <table class="course_table">
+                <tr>
+                    <input type="hidden" value="{$class[0][id]}" name="course[id]">
+                    <td>课程名称：</td>
+                    <td><input class="form-control require" value="{$class[0][cname]}" name="course[cname]" required></td>
+                </tr>
+                <tr>
+                    <td>方向：</td>
+                    <td>
+                        <span>
+                            <select class="require" size="1" name="course[direction]" id="select1" required>
+                                <option selected="selected" value></option>
+                                <volist name="direction" id="data">
+                                <option value="{$key}">{$data}</option>
+                                </volist>
+                            </select>
+                        </span></td>
+                </tr>
+                <tr>
+                    <td>类型：</td>
+                    <td>
+                        <span>
+                            <select class="require" size="1" name="course[type]" id="select2" required>
+                                <option selected="selected" value></option>
+                                <volist name="course" id="vo">
+                                    <option value="{$vo[id]}" parentid="{$vo[did]}">{$vo[name]}</option>
+                                </volist>
+                            </select>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>难度：</td>
+                    <td><span>
+                        <select  class="require" id="level" size="1" name="course[clevel]" required>
+                            <option></option>
+                            <option value="0">初级</option>
+                            <option value="1">中级</option>
+                            <option value="2">高级</option>
+                        </select>
+                    </span></td>
+                </tr>
+                <tr>
+                    <td>描述：</td>
+                    <td>
+                        <textarea  class="form-control require" rows="3" cols="10" name="course[describtion]" >
+                            {$class[0][describtion]}
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>课程封面：<br>
+                        <div tabindex="500" class="btn btn-primary btn-file">
+                            <i class="glyphicon glyphicon-folder-open"></i>&nbsp;Bowse ...<input type="file" name="image" value="选择图片" id="file-b" multiple onchange="ImgPreView()">
+                        </div>
+                        <!--<a tabindex="500" class="btn btn-default btn-file" href="#" id="browse" onclick="changeImgCover()">-->
+                            <!--<i class="glyphicon glyphicon-folder-open"></i>&nbsp;修改-->
+                            <!--<input type="file" name="image" id="file-b" onchange="javascript:ImgPreView()">-->
+                        <!--</a>-->
+                    </td>
+                    <td>
+                        <div id="img">
+                            <img id="imgCover" src="http://wikewechat-wike.stor.sinaapp.com/{$class[0][pdev]}" name="preView">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <button class="btn btn-default" type="submit" onclick="sendUpdate()">提交修改</button>
+        </form>
+    </div>
+</div>
+<script>
+    var level=document.getElementById("level");
+    var select1=document.getElementById("select1");
+    var select2=document.getElementById("select2");
+    var levelSelect="<?php echo $class[0][clevel]; ?>";
+    var select1Value="<?php echo $class[0][direction];?>"
+    var select2Value="<?php echo $class[0][type];?>"
+    for (var i=0;i<level.options.length;i++){
+        if (level.options[i].value==levelSelect){
+            level.options[i].selected=true;
+            break;
+        }
+    }
+    for (var i=0;i<select1.options.length;i++){
+        if(select1.options[i].value==select1Value){
+            select1.options[i].selected=true;
+            break;
+        }
+    }
+    for (var i=0;i<select2.options.length;i++){
+        if(select2.options[i].value==select2Value){
+            select2.options[i].selected=true;
+            break;
+        }
+    }
+
+
+    function sendUpdate(){
+        $("#class-form").html5Validate(
+                function(){
+                    var dataStr=$("#class-form").serialize();
+                    var formData=new FormData($("#class-form")[0]);
+                    formData.append('file',$('#file-b')[0].files[0]);
+            $.ajax({
+                type:"post",
+                url:"{:U('Course/updateCourse')}",
+                contentType:false,
+                dataType:"json",
+                data:formData,
+                processData:false,
+                cache:false,
+                success:
+                    function(data){
+                    if (data.status==0){
+                        $("button").append("<span style='color: red'>"+data.msg+"</span>");
+                        setTimeout(function(){
+                            window.location.href="{:U('Course/index')}";
+                        },3000);
+                    }else if(data.status==1){
+                        alert(data.msg);
+                    }
+                }
+                    ,
+                error:
+                        function(data){
+                    alert("更新失败，请稍后再试。");
+                }
+            });
+                }
+        );
+
+    }
+</script>

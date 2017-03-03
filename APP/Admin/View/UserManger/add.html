@@ -1,0 +1,64 @@
+<div class="templatemo-content-container">
+    <div class="templatemo-flex-row flex-content-row">
+        <div class="templatemo-content-widget white-bg col-2">
+            <i class="fa fa-user fa-2x"></i>
+            <h2 class="templatemo-inline-block">User Information</h2>
+            <hr>
+            <div class="table-responsive">
+                <form class="form-group-sm" method="post" action="{$url}">
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" value="" name="user[name]"></td>
+                        </tr>
+                        <tr>
+                            <td>Sex:</td>
+                            <td><input type="text" value="" name="user[sex]"></td>
+                        </tr>
+                        <tr>
+                            <td>Job:</td>
+                            <td><input type="text" value="" name="user[job]"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="text" name="user[email]"></td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td><input type="password"  name="user[password]"></td>
+                        </tr>
+                        <tr>
+                            <td>Access:</td>
+                            <td>
+                                <select size="1" id="access" name="user[access]">
+                                    <volist name="role" id="role">
+                                        <option>{$role}</option>
+                                    </volist>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                            <td>
+                                <select size="1" id="status" name="user[status]">
+                                    <option>启用</option>
+                                    <option>禁用</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Describtion</td>
+                            <td>
+                                <textarea rows="2" wrap="hard" name="user[describtion]">{$userinfo[0]['describtion']}</textarea>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <button type="submit" class="templatemo-white-button" style="float: right">提交</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

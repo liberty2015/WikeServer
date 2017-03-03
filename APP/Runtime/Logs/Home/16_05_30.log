@@ -1,0 +1,610 @@
+[ 2016-05-30T12:59:38+08:00 ] 221.4.215.214 /wikewechat/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `wike_type` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=1 )  [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=2 )  [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=3 )  [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=4 )  [ RunTime:0.0104s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=5 )  [ RunTime:0.0104s ]
+DEBUG: session:Array
+(
+)
+
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2016-05-30T12:59:42+08:00 ] 221.4.215.214 /wikewechat/Home/Course/course/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `wike_course` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wike_course` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0093s ]
+SQL: SELECT * FROM `wike_course` WHERE ( type=4 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 68 行.
+NOTIC: [8] Use of undefined constant pdev - assumed 'pdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 69 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 74 行.
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 74 行.
+NOTIC: [8] Use of undefined constant unum - assumed 'unum' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 79 行.
+NOTIC: [8] Use of undefined constant describtion - assumed 'describtion' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-30T12:59:44+08:00 ] 221.4.215.214 /wikewechat/Home/Course/chapter/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/CourseController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wike_stu_course` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `wike_stu_course` WHERE `stu_id` = '130202031032' AND `course_id` = 4  [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `wike_course` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `wike_course` WHERE ( id=4 )  [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `wike_chapter` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `wike_chapter` WHERE ( cid=4 )  [ RunTime:0.0096s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Service/IndexService.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `wike_cvideo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wike_cvideo` WHERE ( cid=4 and chid=4 )  [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `wike_stu_chapter` [ RunTime:0.0099s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 4 AND `chid` = 4 AND `cvideo_id` = 16 LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wike_cvideo` WHERE ( cid=4 and chid=5 )  [ RunTime:0.0098s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 4 AND `chid` = 5 AND `cvideo_id` = 15 LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wike_cvideo` WHERE ( cid=4 and chid=6 )  [ RunTime:0.0096s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 4 AND `chid` = 6 AND `cvideo_id` = 6 LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 4 AND `chid` = 6 AND `cvideo_id` = 11 LIMIT 1   [ RunTime:0.0094s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 4 AND `chid` = 6 AND `cvideo_id` = 13 LIMIT 1   [ RunTime:0.0094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 69 行.
+NOTIC: [8] Use of undefined constant unum - assumed 'unum' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 72 行.
+NOTIC: [8] Use of undefined constant pdev - assumed 'pdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 76 行.
+NOTIC: [8] Use of undefined constant chname - assumed 'chname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 125 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant chname - assumed 'chname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 125 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant chname - assumed 'chname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 125 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 141 行.
+NOTIC: [8] Use of undefined constant describtion - assumed 'describtion' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-05-30T12:59:56+08:00 ] 221.4.215.214 /wikewechat/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `wike_type` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=1 )  [ RunTime:0.0093s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=2 )  [ RunTime:0.0091s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=3 )  [ RunTime:0.0091s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=4 )  [ RunTime:0.0099s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=5 )  [ RunTime:0.0093s ]
+DEBUG: session:Array
+(
+    [stu_id] => 130202031032
+)
+
+NOTIC: [8] Undefined index: stu_id /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-05-30T12:59:58+08:00 ] 221.4.215.214 /wikewechat/Home/Course/course/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `wike_course` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wike_course` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0088s ]
+SQL: SELECT * FROM `wike_course` WHERE ( type=2 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 68 行.
+NOTIC: [8] Use of undefined constant pdev - assumed 'pdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 69 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 74 行.
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 74 行.
+NOTIC: [8] Use of undefined constant unum - assumed 'unum' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 79 行.
+NOTIC: [8] Use of undefined constant describtion - assumed 'describtion' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2016-05-30T13:00:00+08:00 ] 221.4.215.214 /wikewechat/Home/Course/chapter/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/CourseController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wike_stu_course` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `wike_stu_course` WHERE `stu_id` = '130202031032' AND `course_id` = 5  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wike_course` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `wike_course` WHERE ( id=5 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wike_chapter` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wike_chapter` WHERE ( cid=5 )  [ RunTime:0.0101s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Service/IndexService.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 69 行.
+NOTIC: [8] Use of undefined constant unum - assumed 'unum' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 72 行.
+NOTIC: [8] Use of undefined constant pdev - assumed 'pdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 76 行.
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 141 行.
+NOTIC: [8] Use of undefined constant describtion - assumed 'describtion' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-05-30T13:00:02+08:00 ] 221.4.215.214 /wikewechat/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `wike_type` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=1 )  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=2 )  [ RunTime:0.0103s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=3 )  [ RunTime:0.0103s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=4 )  [ RunTime:0.0102s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=5 )  [ RunTime:0.0103s ]
+DEBUG: session:Array
+(
+    [stu_id] => 130202031032
+)
+
+NOTIC: [8] Undefined index: stu_id /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-05-30T13:00:04+08:00 ] 221.4.215.214 /wikewechat/Home/Course/course/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `wike_course` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wike_course` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0088s ]
+SQL: SELECT * FROM `wike_course` WHERE ( type=3 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 68 行.
+NOTIC: [8] Use of undefined constant pdev - assumed 'pdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 69 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 74 行.
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 74 行.
+NOTIC: [8] Use of undefined constant unum - assumed 'unum' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 79 行.
+NOTIC: [8] Use of undefined constant describtion - assumed 'describtion' /var/www/html/wikewechat/APP/Runtime/Cache/Home/45bde7b4f4d140873a5c46301455f372.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2016-05-30T13:00:05+08:00 ] 221.4.215.214 /wikewechat/Home/Course/chapter/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/CourseController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wike_stu_course` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `wike_stu_course` WHERE `stu_id` = '130202031032' AND `course_id` = 1  [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `wike_course` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `wike_course` WHERE ( id=1 )  [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `wike_chapter` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wike_chapter` WHERE ( cid=1 )  [ RunTime:0.0096s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Service/IndexService.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `wike_cvideo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wike_cvideo` WHERE ( cid=1 and chid=1 )  [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `wike_stu_chapter` [ RunTime:0.0100s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 1 AND `chid` = 1 AND `cvideo_id` = 3 LIMIT 1   [ RunTime:0.0097s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 1 AND `chid` = 1 AND `cvideo_id` = 12 LIMIT 1   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `wike_cvideo` WHERE ( cid=1 and chid=2 )  [ RunTime:0.0096s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 1 AND `chid` = 2 AND `cvideo_id` = 4 LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wike_cvideo` WHERE ( cid=1 and chid=3 )  [ RunTime:0.0096s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 1 AND `chid` = 3 AND `cvideo_id` = 5 LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT `status` FROM `wike_stu_chapter` WHERE `stu_id` = '130202031032' AND `cid` = 1 AND `chid` = 3 AND `cvideo_id` = 8 LIMIT 1   [ RunTime:0.0094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 69 行.
+NOTIC: [8] Use of undefined constant unum - assumed 'unum' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 72 行.
+NOTIC: [8] Use of undefined constant pdev - assumed 'pdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 76 行.
+NOTIC: [8] Use of undefined constant chname - assumed 'chname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 125 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant chname - assumed 'chname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 125 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant chname - assumed 'chname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 125 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cvideo - assumed 'cvideo' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant vdev - assumed 'vdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant chid - assumed 'chid' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 129 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 133 行.
+NOTIC: [8] Use of undefined constant cname - assumed 'cname' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 141 行.
+NOTIC: [8] Use of undefined constant describtion - assumed 'describtion' /var/www/html/wikewechat/APP/Runtime/Cache/Home/bb3c173d664cb2192e245d9b700fc637.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2016-05-30T13:00:10+08:00 ] 221.4.215.214 /wikewechat/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `wike_type` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=1 )  [ RunTime:0.0103s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=2 )  [ RunTime:0.0104s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=3 )  [ RunTime:0.0104s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=4 )  [ RunTime:0.0103s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=5 )  [ RunTime:0.0102s ]
+DEBUG: session:Array
+(
+    [stu_id] => 130202031032
+)
+
+NOTIC: [8] Undefined index: stu_id /var/www/html/wikewechat/APP/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' /var/www/html/wikewechat/APP/Runtime/Cache/Home/a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+

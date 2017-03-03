@@ -1,0 +1,23 @@
+<div class="templatemo-top-nav-container">
+    <div class="row">
+
+        <nav class="templatemo-top-nav col-lg-12 col-md-12">
+            <ul class="text-uppercase" style="float: left">
+                <!--<li>-->
+                    <!--{:date('Y-m-d H:i:s')}-->
+                <!--</li>-->
+            <!--</ul>-->
+            <!--<ul class="text-uppercase" style="float: right">-->
+                <!--<li>-->
+                    <!--欢迎您，{$Think.session.current_account.email}-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href=""><span class="fa fa-sign-out fa-fw"></span>退出系统</a>-->
+                <!--</li>-->
+                <volist name="sub_menu" id="submenu">
+                    <li><a href="{:U($key)}">{$submenu}</a></li>
+                </volist>
+            </ul>
+        </nav>
+    </div>
+</div>

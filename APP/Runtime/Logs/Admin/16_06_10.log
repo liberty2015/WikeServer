@@ -1,0 +1,9 @@
+[ 2016-06-10T15:34:28+08:00 ] 221.4.215.212 /wikewechat/Admin/Tndex/index.html
+ERR: 无法加载控制器:Tndex
+
+[ 2016-06-10T15:48:01+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-06-10T15:48:16+08:00 ] 221.4.215.219 /wikewechat/Admin/Course/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+

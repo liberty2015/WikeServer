@@ -1,0 +1,9 @@
+[ 2016-05-28T22:14:36+08:00 ] 221.4.215.219 /wikewechat/Admin/Tndex/index.html
+ERR: 无法加载控制器:Tndex
+
+[ 2016-05-28T22:24:54+08:00 ] 221.4.215.219 /wikewechat/Admin/Tndex/index.html
+ERR: 无法加载控制器:Tndex
+
+[ 2016-05-28T22:33:06+08:00 ] 221.4.215.219 /wikewechat/Admin/Index/index.html
+ERR: Think\Controller:assing方法不存在！
+

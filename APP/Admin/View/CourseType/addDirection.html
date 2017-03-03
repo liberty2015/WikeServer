@@ -1,0 +1,23 @@
+<div class="templatemo-content-container">
+    <div class="templatemo-flex-row flex-content-row">
+        <div class="templatemo-content-widget white-bg col-2">
+            <i class="fa fa-video-camera"></i>
+            <h2 class="templatemo-inline-block">Course Direction</h2>
+            <hr>
+            <div class="table-responsive">
+                <form class="form-group-sm" method="post" action="{:U('CourseType/createDirection')}">
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                        <tr>
+                            <td>方向名称：</td>
+                            <td><input type="text" name="direction"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <button type="submit" class="templatemo-white-button" style="float: right">提交</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

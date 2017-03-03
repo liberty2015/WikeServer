@@ -1,0 +1,15 @@
+<link href="/wike/Public/css//wike.css" rel="stylesheet">
+<div class="wike-content-container">
+        <h1>Welcome,Admin</h1>
+        <hr>
+        <div class="wike-class-container">
+            <p>用户名：{$currentAccount['email']}</p>
+            <p>权限：{$currentAccount['remark']}</p>
+            <p>状态：<if condition="($currentAccount['status'] eq 1)">
+                激活
+                <else/>禁用
+            </if>
+            </p>
+            <p>当前IP：{$user_ip}</p>
+        </div>
+    </div>

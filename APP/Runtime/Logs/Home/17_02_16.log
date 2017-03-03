@@ -1,0 +1,33 @@
+[ 2017-02-16T10:22:35+08:00 ] ::1 /wike/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009145s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\wike\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\wike\APP\Home\Controller\IndexController.class.php 第 12 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wike_database.wike_direction' doesn't exist
+
+[ 2017-02-16T11:45:41+08:00 ] 127.0.0.1 /wike/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012493s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\wike\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp64\www\wike\APP\Home\Controller\IndexController.class.php 第 12 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wike_database.wike_direction' doesn't exist
+
+[ 2017-02-16T15:00:27+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+ERR: 日志
+[ 2017-02-16T15:00:27+08:00 ] ::1 /wike/index.php/Home/User/registerByPhone?nickName=%E5%9A%AF%E5%9A%AF%E5%9A%AF&loginPassword=1234&gender=0&loginName=1343254535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+NOTIC: [8] Undefined index: loginName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 73 行.
+NOTIC: [8] Undefined index: loginPassword D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 74 行.
+NOTIC: [8] Undefined index: gender D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 75 行.
+NOTIC: [8] Undefined index: nickName D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 76 行.
+NOTIC: [8] Undefined index: self_describe D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [8] Undefined index: head_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 78 行.
+NOTIC: [8] Undefined index: page_img D:\wamp64\www\wike\APP\Home\Controller\UserController.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+

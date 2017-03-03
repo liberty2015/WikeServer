@@ -1,0 +1,38 @@
+<div class="templatemo-content-container">
+    <div class="templatemo-flex-row flex-content-row">
+        <div class="col-1">
+            <div class="panel panel-default templatemo-content-widget white-bg no-padding templatemo-overflow-hidden">
+                <div class="panel-heading templatemo-position-relative">
+                    <h2 class="text-uppercase">User Table</h2>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered" id="userlist">
+                        <thead>
+                        <tr>
+                            <td>No.</td>
+                            <td>姓名</td>
+                            <td>登录账户</td>
+                            <td>操作</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="userTable" id="data">
+                            <tr>
+                                <td>{$data.id}</td>
+                                <td>{$data.name}</td>
+                                <td>{$data.email}</td>
+                                <td><a href="{$url1[$i-1]}"><i class="fa fa-pencil"></i>编辑</a>
+                                    <a href="{$url2[$i-1]}"><i class="fa fa-minus-square"></i>删除</a>
+                                    <a href="{$url[$i-1]}"><i class="fa fa-credit-card"></i>查看</a>
+                                </td>
+                            </tr>
+                        </volist>
+                        <!--<script src="/WikeWechat/Public/Visual_Admin/js/jquery-1.11.2.min.js"></script>-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{:C('SITE_TITLE')}绑定</title>
+    <link href="/wikewechat/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/wikewechat/Public/bootstrap/js/jquery.js"></script>
+    <script src="/wikewechat/Public/bootstrap/js/bootstrap.min.js"></script>
+    <link href="/wikewechat/Public/Visual_Admin/css/templatemo-style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<div class="templatemo-content col-1 light-gray-bg">
+    <div class="templatemo-content-widget white-bg">
+        <div style="text-align: center">
+            <h3><b>账号绑定</b></h3>
+            <form role="form" action="{:U('WeChat/data')}" method="post">
+                <input type="hidden" name="token" value="{$token}">
+                <div class="input-group">
+                    <span class="input-group-addon">学号</span>
+                    <input class="form-control" name="stu_id">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">姓名</span>
+                    <input class="form-control" name="name">
+                </div>
+                <hr>
+                <button type="submit" class="btn-primary btn-lg">提交</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

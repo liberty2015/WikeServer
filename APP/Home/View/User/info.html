@@ -1,0 +1,40 @@
+<div style="margin: 0 15px">
+        <div style="font-size: 18px;font-weight: bold;width:40%;padding-top: 10px;float: left">
+            <span class="fa fa-user fa-2x"></span>个人信息
+        </div>
+        <div style="float: right;padding-top: 30px;;"><span class="fa fa-pencil fa-2x"></span>修改</div>
+        <br><br><br>
+        <hr>
+    <table class="table table-bordered">
+        <tbody>
+        <!-- <tr>
+            <td>头像</td>
+            <td><img src="{$info[headimgurl]}" style="border-radius: 5px;height: 20%"></td>
+        </tr> -->
+        <tr>
+            <td>姓名</td>
+            <td>{$info[0]['name']}</td>
+        </tr>
+        <tr>
+            <td>学号</td>
+            <td>{$info[0]['sid']}</td>
+        </tr>
+        <tr>
+            <td>学院</td>
+            <td>{$info[0]['college']}</td>
+        </tr>
+        <tr>
+            <td>专业</td>
+            <td>{$info[0]['specialty']}</td>
+        </tr>
+        <tr>
+            <td>年级</td>
+            <td>{$info[0]['grade']}</td>
+        </tr>
+        <tr>
+            <td>班号</td>
+            <td>{$info[0]['class']}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
