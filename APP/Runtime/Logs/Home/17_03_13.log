@@ -1,0 +1,262 @@
+[ 2017-03-13T10:05:44+08:00 ] ::1 /WikeServer/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2017-03-13T10:06:09+08:00 ] ::1 /WikeServer/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-03-13T10:06:21+08:00 ] ::1 /WikeServer/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-03-13T10:10:47+08:00 ] ::1 /WikeServer/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-03-13T10:13:25+08:00 ] ::1 /WikeServer/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-03-13T10:14:20+08:00 ] ::1 /WikeServer/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-03-13T22:54:48+08:00 ] ::1 /WikeServer/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wike_type` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=5 )  [ RunTime:0.0003s ]
+DEBUG: session:Array
+(
+    [d2d977c58444271d9c780187e93f80e51] => Array
+        (
+            [verify_code] => a7491f24bf8256d278a7673ad6aaabf0
+            [verify_time] => 1489416045
+        )
+
+    [current_account] => Array
+        (
+            [id] => 1
+            [email] => 409947972@qq.com
+            [password] => 0350032465a0276863f20387d3555bf3
+            [logintime] => 1489411861
+            [infoid] => 1
+            [is_super] => 1
+            [remark] => 超级管理员
+            [status] => 1
+        )
+
+    [wiadminae] => 1
+    [wikeadmin] => 1
+    [716b6a3fb96d36b049a762f042960611] => 2fb5db3f499bd6ee69425cec4d8c65bc1
+)
+
+NOTIC: [8] Undefined index: stu_id D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: stu_id D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 119 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant course - assumed 'course' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 123 行.
+NOTIC: [8] Use of undefined constant tdev - assumed 'tdev' D:\wamp\www\WikeServer\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-03-13T22:55:00+08:00 ] ::1 /WikeServer/Home/Course/course/id/12.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `wike_course` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wike_course` WHERE ( type=12 ) LIMIT 1   [ RunTime:0.0451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2017-03-13T23:01:35+08:00 ] ::1 /WikeServer/Home/Index/typeList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wike_type` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=4 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=5 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-03-13T23:01:43+08:00 ] ::1 /WikeServer/Home/Index/typeList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\WikeServer\APP\Home\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `wike_direction` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wike_direction`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wike_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=3 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=4 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wike_type` WHERE ( did=5 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-03-13T23:04:38+08:00 ] ::1 /WikeServer/Home/User/registerByEmail?loginName=13750050322@163.com&loginPassword=123&gender=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-03-13T23:11:01+08:00 ] ::1 /WikeServer/Home/User/registerByEmail?loginName=13750050322@163.com&loginPassword=123&gender=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-03-13T23:16:20+08:00 ] ::1 /WikeServer/Home/User/registerByEmail?loginName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-03-13T23:19:28+08:00 ] ::1 /WikeServer/Home/User/registerByEmail?loginName=13750050322@163.com&loginPassword=123&gender=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+

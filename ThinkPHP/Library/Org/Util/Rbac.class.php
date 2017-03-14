@@ -156,10 +156,15 @@ class Rbac {
 
     //权限认证的过滤器方法
     static public function AccessDecision($appName=MODULE_NAME) {
+//        trace($appName,'appName');
+        $testAccess=self::checkAccess();
+//        trace($testAccess,'testAccess');
         //检查是否需要认证
-        if(self::checkAccess()) {
+        if($testAccess) {
             //存在认证识别号，则进行进一步的访问决策
             $accessGuid   =   md5($appName.CONTROLLER_NAME.ACTION_NAME);
+//            trace($appName.CONTROLLER_NAME.ACTION_NAME,'ACTION_NAME');
+//            trace($accessGuid,'accessGuid');
             if(empty($_SESSION[C('ADMIN_AUTH_KEY')])) {
                 if(C('USER_AUTH_TYPE')==2) {
                     //加强验证和即时验证模式 更加安全 后台权限修改可以即时生效
@@ -167,6 +172,7 @@ class Rbac {
                     $accessList = self::getAccessList($_SESSION[C('USER_AUTH_KEY')]);
                 }else {
                     // 如果是管理员或者当前操作已经认证过，无需再次认证
+//                    trace($_SESSION[$accessGuid],'_SESSION[$accessGuid]');
                     if( $_SESSION[$accessGuid]) {
                         return true;
                     }

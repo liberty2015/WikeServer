@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WikeWeChat - Login</title>
-    <link href="/wike/img/wike_favicon.ico" type="image/x-icon" rel="icon">
-    <link href="/wike/img/wike_favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link href="/WikeServer/img/wike_favicon.ico" type="image/x-icon" rel="icon">
+    <link href="/WikeServer/img/wike_favicon.ico" type="image/x-icon" rel="shortcut icon">
     <meta name="description" content="">
     <meta name="author" content="templatemo">
-    <script src="/wike/Public/js/jquery-1.11.2.min.js"></script>
+    <script src="/WikeServer/Public/js/jquery-1.11.2.min.js"></script>
     <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
-    <link href="/wike/Public/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/wike/Public/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/wike/Public/css/templatemo-style.css" rel="stylesheet">
-    <link href="/wike/Public/css/signin.css" rel="stylesheet">
+    <link href="/WikeServer/Public/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/WikeServer/Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/WikeServer/Public/css/templatemo-style.css" rel="stylesheet">
+    <link href="/WikeServer/Public/css/signin.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

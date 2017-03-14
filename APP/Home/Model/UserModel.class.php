@@ -55,6 +55,7 @@ class UserModel extends Model
         $data['self_describe']=$stu['self_describe'];
         $data['head_img']=$stu['head_img'];
         $data['page_img']=$stu['page_img'];
+        $data['name']=$stu['name'];
         $result=$this->add($data);
         return $result;
     }
@@ -68,6 +69,7 @@ class UserModel extends Model
         $data['self_describe']=$stu['self_describe'];
         $data['head_img']=$stu['head_img'];
         $data['page_img']=$stu['page_img'];
+        $data['name']=$stu['name'];
         $result=$this->add($data);
         return $result;
     }

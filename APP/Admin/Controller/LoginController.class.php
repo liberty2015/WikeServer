@@ -71,4 +71,8 @@ class LoginController extends Controller{
         D('Admin','Service')->logout();
         $this->success("登出成功！",U('Login/index'));
     }
+
+    public function register(){
+
+    }
 }

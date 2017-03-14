@@ -30,6 +30,10 @@ class UserMangerController extends CommonController
         $this->display();
     }
 
+    public function stuList(){
+
+    }
+
     //用户编辑页面
     public function edit(){
         $user=D('User','Service');

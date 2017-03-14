@@ -7,17 +7,17 @@
     <title><?php echo C('SITE_TITLE');?>后台管理</title>
     <meta name="description" content="">
     <meta name="author" content="templatemo">
-    <link href="/wikewechat/img/wike_favicon.ico" type="image/x-icon" rel="icon">
-    <link href="/wikewechat/img/wike_favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link href="/WikeServer/img/wike_favicon.ico" type="image/x-icon" rel="icon">
+    <link href="/WikeServer/img/wike_favicon.ico" type="image/x-icon" rel="shortcut icon">
     <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
-    <link href="/wikewechat/Public/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/wikewechat/Public/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/wikewechat/Public/css/templatemo-style.css" rel="stylesheet">
-    <link href="/wikewechat/Public/css/page.css" rel="stylesheet">
-    <script src="/wikewechat/Public/js/jquery.js"></script>
-    <script src="/wikewechat/Public/js/bootstrap.min.js"></script>
-    <script src="/wikewechat/Public/js/jquery-migrate-1.2.1.min.js"></script> <!--  jQuery Migrate Plugin -->
-    <script type="text/javascript" src="/wikewechat/Public/js/templatemo-script.js"></script>      <!-- Templatemo Script -->
+    <link href="/WikeServer/Public/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/WikeServer/Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/WikeServer/Public/css/templatemo-style.css" rel="stylesheet">
+    <link href="/WikeServer/Public/css/page.css" rel="stylesheet">
+    <script src="/WikeServer/Public/js/jquery.js"></script>
+    <script src="/WikeServer/Public/js/bootstrap.min.js"></script>
+    <script src="/WikeServer/Public/js/jquery-migrate-1.2.1.min.js"></script> <!--  jQuery Migrate Plugin -->
+    <script type="text/javascript" src="/WikeServer/Public/js/templatemo-script.js"></script>      <!-- Templatemo Script -->
 </head>
 <body>
 <!-- Left column -->
@@ -71,8 +71,8 @@
         </nav>
     </div>
 </div>
-        <script src="/wikewechat/Public/js/wike.js"></script>
-<link href="/wikewechat/Public/css/wike.css" rel="stylesheet">
+        <script src="/WikeServer/Public/js/wike.js"></script>
+<link href="/WikeServer/Public/css/wike.css" rel="stylesheet">
 <div class="templatemo-content -container">
     <div class="templatemo-flex-row flex-content-row">
         <div class="templatemo-content-widget white-bg col-2">

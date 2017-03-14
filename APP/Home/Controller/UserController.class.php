@@ -78,6 +78,7 @@ class UserController extends CommonController{
         $stu['head_img']=$_POST['head_img'];
         $stu['page_img']=$_POST['page_img'];
         $stu['name']=$_POST['name'];
+        Log::write(dump($_POST));
 //        var_dump($stu);
 //        var_dump($_POST);
 //        print_r($_POST);
@@ -93,6 +94,7 @@ class UserController extends CommonController{
     }
 
     public function registerByEmail(){
+//        dump($_POST);
         $stu['email']=$_POST['loginName'];
         $stu['loginPassword']=$_POST['loginPassword'];
         $stu['gender']=$_POST['gender'];

@@ -37,6 +37,9 @@ class CommonController extends Controller{
         if(!C('USER_AUTH_ON')){
             return ;
         }
+//        $testBool=\Org\Util\Rbac::AccessDecision();
+//        trace($testBool,'testBool');
+//        dump($_SESSION,'SESSION');
         if(\Org\Util\Rbac::AccessDecision()){
             return ;
         }

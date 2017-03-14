@@ -71,16 +71,17 @@
         </nav>
     </div>
 </div>
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
+        <div class="templatemo-content-container" style="height: 100%">
+    <div class="templatemo-flex-row flex-content-row">
+        <div class="templatemo-content-widget white-bg col-1 text-center">
+            <h2 class="text-uppercase" style="font-family: 黑体">暂时没有任何课程</h2>
+            <h3 class="text-uppercase margin-bottom-10" style="font-family: 黑体">点击添加</h3>
+            <!--<img src="/WikeWechat/Public/Visual_Admin/images/add_btn.png">-->
+            <a href="<?php echo U('Course/addCourse');?>"><input type="image" src="http://wikewechat-wike.stor.sinaapp.com/Images%2Fadd_btn.png"
+                              class="img-responsive img-thumbnail" width="80" height="80"></a>
+        </div>
+    </div>
+</div>
         <footer class="text-right">
     <p>Copyright &copy; 2016 WiKeWeChat
         | Connect to <a href="http://www.cnblogs.com/libertycode/" target="_blank">http://www.cnblogs.com/libertycode/</a></p>

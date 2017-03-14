@@ -6,61 +6,61 @@
  * Time: 10:47
  */
 $sysConfig=include('APP/Common/Conf/config.php');
-//±íµ¥ÁîÅÆÉèÖÃ
+//è¡¨å•ä»¤ç‰Œè®¾ç½®
 $security=array(
-    //±íµ¥ÁîÅÆ
+    //è¡¨å•ä»¤ç‰Œ
     'TOKEN'=>true,
     'TOKEN_NAME'=>'__hash__',
     'TOKEN_TYPE'=>'md5',
     'TOKEN_RESET'=>true,
-    //ÈÏÖ¤token
+    //è®¤è¯token
     'AUTH_TOKEN'=>'wiadmin',
-    //ÈÏÖ¤mask
+    //è®¤è¯mask
     'AUTH_MASK'=>'wikeadmin',
-    //µÇÂ¼³¬Ê±
+    //ç™»å½•è¶…æ—¶
     'LOGIN_TIMEOUT'=>3600,
-    //¿ªÆôÈ¨ÏÞÈÏÖ¤Ä£Ê½
+    //å¼€å¯æƒé™è®¤è¯æ¨¡å¼
     'USER_AUTH_ON'=>true,
-    //µÇÂ¼ÈÏÖ¤Ä£Ê½ÉèÖÃÎª(1)µÇÂ¼ÈÏÖ¤,2ÎªÊµÊ±ÈÏÖ¤
+    //ç™»å½•è®¤è¯æ¨¡å¼è®¾ç½®ä¸º(1)ç™»å½•è®¤è¯,2ä¸ºå®žæ—¶è®¤è¯
     'USER_AUTH_TYPE'=>1,
-    //ÈÏÖ¤Ê¶±ðºÅ
+    //è®¤è¯è¯†åˆ«å·
     'USER_AUTH_KEY'=>'wiadminae',
-    //³¬¼¶¹ÜÀíÔ±ÈÏÖ¤ºÅ
+    //è¶…çº§ç®¡ç†å‘˜è®¤è¯å·
     'ADMIN_AUTH_KEY'=>'wikeadmin',
-    //ÑéÖ¤ÓÃ»§±íÄ£ÐÍ
+    //éªŒè¯ç”¨æˆ·è¡¨æ¨¡åž‹
     'USER_AUTH_MODEL'=>'user',
-    //ÈÏÖ¤Íø¹Ø
+    //è®¤è¯ç½‘å…³
     'USER_AUTH_GATEWAY'=>'Login/index',
-    //ÎÞÐèÈÏÖ¤µÄ¿ØÖÆÆ÷
+    //æ— éœ€è®¤è¯çš„æŽ§åˆ¶å™¨
     'NOT_AUTH_MODULE'=>'Login',
     'NOT_AUTH_ACTION'=>'index',
-    //ÎÞÐèÈÏÖ¤µÇÂ¼µÄÄ£¿é
+    //æ— éœ€è®¤è¯ç™»å½•çš„æ¨¡å—
     'NOT_LOGIN_MODULES'=>'Login',
-    //Ä¬ÈÏÐèÒªÈÏÖ¤µÄÄ£¿é¡¢·½·¨
+    //é»˜è®¤éœ€è¦è®¤è¯çš„æ¨¡å—ã€æ–¹æ³•
     'REQUIRE_AUTH_MODULE'=>'',
     'REQUIRE_AUTH_ACTION'=>'',
-    //Ö÷Ä£¿é
+    //ä¸»æ¨¡å—
     'GROUP_AUTH_NAME'=>'Admin',
-    //ÓÎ¿Í±ê¼Ç
+    //æ¸¸å®¢æ ‡è®°
     'GUEST_AUTH_ID'=>'guest',
-    //ÊÇ·ñ¿ªÆôÓÎ¿ÍÊÚÈ¨·ÃÎÊ
+    //æ˜¯å¦å¼€å¯æ¸¸å®¢æŽˆæƒè®¿é—®
     'GUEST_AUTH_ON'=>false,
-    //½ÌÊ¦¹ÜÀíÔ±ÈÏÖ¤ºÅ
+    //æ•™å¸ˆç®¡ç†å‘˜è®¤è¯å·
     'TEACHER_AUTH_KEY'=>'teacher',
 
-    //¹ÜÀíÔ±Ä£ÐÍ
+    //ç®¡ç†å‘˜æ¨¡åž‹
     'USER_AUTH_MODEL'=>'Admin',
-    //¹ÜÀíÔ±±í
+    //ç®¡ç†å‘˜è¡¨
     'ADMIN_TABLE'=>$sysConfig['DB_PREFIX'].'user',
-    //ÓÃ»§ÐÅÏ¢±í
+    //ç”¨æˆ·ä¿¡æ¯è¡¨
     'USER_TABLE'=>$sysConfig['DB_PREFIX'].'userinfo',
-    //½ÇÉ«±í£¨±ØÅä£©
+    //è§’è‰²è¡¨ï¼ˆå¿…é…ï¼‰
     'RBAC_ROLE_TABLE'=>$sysConfig['DB_PREFIX'].'role',
-    //ÓÃ»§½ÇÉ«ÖÐ¼ä±í£¨±ØÅä£©
+    //ç”¨æˆ·è§’è‰²ä¸­é—´è¡¨ï¼ˆå¿…é…ï¼‰
     'RBAC_USER_TABLE'=>$sysConfig['DB_PREFIX'].'role_user',
-    //½Úµã±í£¨±ØÅä£©
+    //èŠ‚ç‚¹è¡¨ï¼ˆå¿…é…ï¼‰
     'RBAC_NODE_TABLE'=>$sysConfig['DB_PREFIX'].'node',
-    //È¨ÏÞ±í£¨±ØÅä£©
+    //æƒé™è¡¨ï¼ˆå¿…é…ï¼‰
     'RBAC_ACCESS_TABLE'=>$sysConfig['DB_PREFIX'].'access',
 );
 $security['LOGIN_MARKED']=md5($security['AUTH_TOKEN']);

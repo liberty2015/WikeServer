@@ -37,6 +37,12 @@ class IndexController extends CommonController {
             $this->display();
         }
     }
+
+    public function typeList(){
+        $course=D('Index','Service')->getCourseType();
+        $result=json_encode($course);
+        echo $result;
+    }
 }
 
 
